@@ -1,0 +1,16 @@
+{
+  "name": "bot_defi_mineflayer",
+  "version": "1.0.0",
+  "description": "a test usage with mineflayer package",
+  "main": "client.js",
+  "dependencies": {
+    "discord.js": "^11.3.0",
+    "mineflayer": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "exit 1"
+  },
+  "author": "nesmon",
+  "license": "ISC"
+}

@@ -25,3 +25,6 @@ The discord command to send a message into minecraft is :
 ```
 mineflayer <your message>
 ```
+
+You can change the username of the bot on minecraft via config.json.example (change name of the fill by config.json).
+

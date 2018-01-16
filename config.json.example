@@ -1,4 +1,5 @@
 {
     "token": "YOUR-TOKEN-HERE",
-    "prefix": "."
+    "prefix": ".",
+    "mineflayername":"Username for bot in minecraft"
 }

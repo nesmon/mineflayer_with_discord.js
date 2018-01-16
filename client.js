@@ -2,11 +2,12 @@ const mineflayer = require('mineflayer');
 const Discord = require('discord.js')
 const discord = new Discord.Client();
 
-const config = require('./config.json')
+const config = require('./config.json.examplett')
 const prefix = config.prefix;
 
 let minecraft = null;
 
+// Function to get minecraft message on discord.
 function sendToDiscord(message) {
     console.log(`Message à envoyer to discord ${message}`);
     const log = discord.channels.find('name', 'mineflayer-test');
@@ -20,10 +21,9 @@ function sendToDiscord(message) {
 // Part Mineflayer and minecraft
 
 minecraft = mineflayer.createBot({
-    host: process.env.HOST || "localhost", // optional
-    port: process.env.PORT,       // optional
-    username: "MineFlayer", // email and password are required only for
-    // password: "12345678",          // online-mode=true servers
+    host: process.env.HOST || "localhost",
+    port: process.env.PORT,
+    username: config.minflayername,
 });
 
 

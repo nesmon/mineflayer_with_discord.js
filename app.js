@@ -9,8 +9,7 @@ const prefix = config.prefix
 const minecraft = mineflayer.createBot({
   host: config.server.host,
   port: config.server.port,
-  username: config.server.color + config.server.username,
-  colorEnabled: true
+  username: config.server.color + config.server.username
 })
 
 // When the bot is on

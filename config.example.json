@@ -1,0 +1,12 @@
+{
+    "token": "YOUR_DISCORD_BOT_TOKEN",
+    "prefix": ".",
+    "discordChannelName": "YOUR_DISCORD_CHANNEL_NAME",
+    "server": {
+        "host": "SERVER_IP",
+        "port": "SERVER_PORT",
+        "username": "MINECRAFT_USERNAME",
+        "password": "MINECRAFT_PASSWORD",
+        "color": "MINECRAFT_COLOR_CODE"
+    }
+}

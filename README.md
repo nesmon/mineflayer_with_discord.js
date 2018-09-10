@@ -9,22 +9,32 @@ You need git on your machine, node.js (8 or higher) and npm(5 or higher).
 
 ### Setup 
 
-git clone the repo and go to the folder.
-Runs the commande npm install.
+Clone this repository
+
+```bash
+$ git clone https://github.com/MrDragonXM15/mineflayer_with_discord.js
+```
+
+Go inside the project folder and install all dependencies
+```bash
+$ cd mineflayer_with_discord.js && npm install
+```
 
 ### Start 
 
 To start the bot you need an opened lan server on minecraft or create a server.
 
-After that, run this command :
-```
-$ HOST=<server ip, default = localhost> PORT=<server port> node client.js  
+After that, edit the config file and rename it like that `config.json`
+
+then you can run the bot
+```bash
+$ node app.js  
 ``` 
 
-The discord command to send a message into minecraft is :
+When the bot is online, you can send a message with the command
 ```
-mineflayer <your message>
+.<your message>
 ```
 
-You can change the username of the bot on minecraft via config.json.example (change name of the fill by config.json).
+You can change the username and the color of the bot inside `config.json`.
 

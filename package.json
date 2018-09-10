@@ -1,15 +1,22 @@
 {
-  "name": "bot_defi_mineflayer",
+  "name": "mineflayer_bot",
   "version": "1.0.0",
-  "description": "a test usage with mineflayer package",
-  "main": "client.js",
+  "description": "A discord bot with mineflayer API",
+  "main": "app.js",
   "dependencies": {
     "discord.js": "^11.3.0",
+    "eslint": "^4.16.0",
     "mineflayer": "^2.6.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
   "scripts": {
-    "test": "exit 1"
+    "start": "node app.js"
   },
   "author": "nesmon",
   "license": "ISC"
